@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'Futura-Bold';
+	src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura-Bold.woff') format('woff'), url('../fonts/Futura-Bold.ttf') format('truetype'), url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	transition: 0.3s ease-in-out all;
+	-moz-transition: 0.3s ease-in-out all;
+	-webkit-transition: 0.3s ease-in-out all;
+	-ms-transition: 0.3s ease-in-out all;
+	-o-transition: 0.3s ease-in-out all;
+}
+
+body {
+	font-family: 'Lato', sans-serif!important;
+}
+
+.contain-work {
+	background-image: url("../images/header_bg (1).png");
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif!important;
+	padding: 30px 0;
+	background-size: cover;
+}
+
+img.img-responsive-howitwork {
+	width: 303px;
+	height: 43px;
+	padding: 0 10px;
+}
+
+.section.steps .row+.row {
+	margin-top: 13px;
+}
+
+.steps {
+	background-image: url("../images/bg (2).png");
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif!important;
+	background-size: cover;
+}
+
+.h5,
+h5 {
+	font-size: 14px !important;
+	color: #fff!important;
+	padding: 0px 10px;
+}
+
+.section.steps {
+	padding: 80px 0;
+}
+
+h3.steps-text {
+	font-size: 32px;
+	color: #fff;
+}
+
+p.steps-text {
+	font-size: 13px;
+	color: #fff;
+	text-align: justify;
+}
+
+img.img-responsive {
+	border: 16px solid black;
+}
+
+img.img-responsive-new {
+	max-width: 307px;
+	border: 21px solid black;
+}
+
+
+/**** Media query***/
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.section.steps {
+		/*padding: 8px 0;*/
+	}
+}
